@@ -10,7 +10,7 @@ primary_region = "scl"
 
 [[services]]
   http_checks   = []
-  internal_port = 8080
+  internal_port = 8090
   processes     = ["app"]
   protocol      = "tcp"
   script_checks = []
